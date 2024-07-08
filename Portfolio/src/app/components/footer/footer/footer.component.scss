@@ -1,0 +1,9 @@
+#footer-logo-img {
+    transition: all 300ms;
+}
+
+@media screen and (max-width: 650px) {
+ #footer-logo-img {
+    width: 150px;
+ }
+}
