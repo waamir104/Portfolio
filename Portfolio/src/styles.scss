@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-gray: #f6f5f5;
+    --gray: #e8e8e7;
+    --dark-gray: #333333;
+    --dark-red: #981914;
+    --light-red: #db0606;
+}
