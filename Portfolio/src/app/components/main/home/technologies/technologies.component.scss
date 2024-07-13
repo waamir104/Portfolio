@@ -3,7 +3,7 @@
     .slide-track {
         animation: scroll 50s linear infinite;
         -webkit-animation: scroll 50s linear infinite;
-        width: calc(110px * 34);
+        width: calc(110px * 38);
 
         .slide {
             width: 110px;
@@ -23,7 +23,7 @@
     }
 
     100% {
-        transform: translateX(calc(-110px * 17));
-        -webkit-transform: translateX(calc(-100px * 17));
+        transform: translateX(calc(-110px * 19));
+        -webkit-transform: translateX(calc(-100px * 19));
     }
 }

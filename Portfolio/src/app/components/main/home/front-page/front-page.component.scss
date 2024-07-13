@@ -1,0 +1,16 @@
+#front-page {
+    height: calc(100vh - 70px);
+
+    #front-page-text {
+
+        span {
+            font-family: "Luckiest Guy", sans-serif;
+        }
+
+        span:nth-child(2) {
+            line-height: 90px;
+        }
+    }
+
+    
+}
