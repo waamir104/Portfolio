@@ -7,14 +7,14 @@ import { HeaderComponent } from './components/header/header/header.component';
 import { NavbarComponent } from './components/header/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer/footer.component';
 import { CopyRightComponent } from './components/footer/copy-right/copy-right.component';
-import { FrontPageComponent } from './components/main/main-content/front-page/front-page.component';
+import { FrontPageComponent } from './components/main/home/front-page/front-page.component';
 import { MainComponent } from './components/main/main/main.component';
-import { CompaniesComponent } from './components/main/main-content/companies/companies.component';
-import { TechnologiesComponent } from './components/main/main-content/technologies/technologies.component';
+import { CompaniesComponent } from './components/main/home/companies/companies.component';
+import { TechnologiesComponent } from './components/main/home/technologies/technologies.component';
 import { ProjectsComponent } from './components/main/projects/projects.component';
-import { MainContentComponent } from './components/main/main-content/main-content/main-content.component';
-import { GetInTouchComponent } from './components/main/main-content/get-in-touch/get-in-touch.component';
-import { AboutUsComponent } from './components/main/main-content/about-us/about-us.component';
+import { MainContentComponent } from './components/main/home/main-content/main-content.component';
+import { GetInTouchComponent } from './components/main/home/get-in-touch/get-in-touch.component';
+import { AboutUsComponent } from './components/main/home/about-us/about-us.component';
 
 @NgModule({
   declarations: [

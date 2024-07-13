@@ -22,7 +22,7 @@
         class="w-[30px] cursor-pointer" alt="Burger Icon"
         (click)="ToggleMenu($event.target)">
     </div>
-    <div id="menu-container" class="hidden absolute top-[80px] right-[15px] w-[200px] rounded-[15px] p-[10px] flex-row items-center justify-center">
+    <div id="menu-container" class="hidden absolute z-[20] top-[80px] right-[15px] w-[200px] rounded-[15px] p-[10px] flex-row items-center justify-center">
         <ul class="links-menu-list flex flex-col h-[100%] items-center" id="nav-links-menu-list">
             <li class="list-menu-item"><a href="#about-us" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">About us</a></li>
             <li class="list-menu-item"><a href="#front-page" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Front Page</a></li>
