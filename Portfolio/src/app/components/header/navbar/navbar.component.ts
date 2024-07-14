@@ -23,7 +23,9 @@ export class NavbarComponent {
       }
 
       anchor.classList.add('active');
-      this.ToggleMenu();
+      if (window.innerWidth < 930) {
+        this.ToggleMenu();
+      }
     }
   }
 
