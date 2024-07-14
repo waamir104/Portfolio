@@ -23,12 +23,12 @@ export class NavbarComponent {
       }
 
       anchor.classList.add('active');
+      this.ToggleMenu();
     }
   }
 
-  ToggleMenu(target: EventTarget | null): void {
-    if (target instanceof HTMLElement) {
-      let imgElement = target as HTMLImageElement;
+  ToggleMenu(): void {
+      let imgElement = document.getElementById('burger-icon') as HTMLImageElement;
       let menuContainer = document.getElementById('menu-container');
       if (menuContainer?.classList.contains('hidden')) {
         menuContainer.classList.remove('hidden');
@@ -37,7 +37,6 @@ export class NavbarComponent {
         menuContainer?.classList.add('hidden');
         imgElement.src = '../../../../assets/img/icon/burger-white.png';
       }
-    }
   }
 
   @HostListener('window:resize', ['$event'])

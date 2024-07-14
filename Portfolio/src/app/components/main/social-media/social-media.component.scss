@@ -1,0 +1,13 @@
+// RESPONSIVE DESIGN
+
+@media screen and (max-width: 940px) {
+    #social-media-container {
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #social-media-container {
+        display: none;
+    }
+}

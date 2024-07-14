@@ -1,21 +1,23 @@
 <div id="front-page" class="w-[100%] mt-[70px]">
-    <div class="flex flex-row uppercase p-[30px]">
-        <div class="w-[50%] pt-[10px]" id="front-page-text">
-            <span class="text-[100px]" #typedOutput></span>
-            <span class="text-[130px] leading-[100px]">developer</span>
-            <div class="mt-[30px]" id="cta-container">
-                <div class="pl-[10px]" id="cta-message-container">
-                    <p>Do you have question, proposals, or projects in mind? Let's explore collaboration oportunities.</p>
-                </div>
-                <a href="#get-in-touch" class="block">
-                    <div class="flex items-center justify-center h-[100%] mt-[30px]">
-                        <button class="button">Reach out!!</button>
+    <div class="flex flex-row uppercase p-[30px] h-[100%]" id="front-page-content-container">
+        <div class="w-[50%] flex items-center" id="front-page-text">
+            <div>
+                <span class="text-[100px]" id="typed-text" #typedOutput></span>
+                <span class="text-[140px] leading-[100px] block" id="static-text">developer</span>
+                <div class="mt-[30px]" id="cta-container">
+                    <div class="pl-[10px]" id="cta-message-container">
+                        <p>Do you have questions, proposals, or projects in mind? Let's explore collaboration oportunities.</p>
                     </div>
-                </a>
+                    <a href="#get-in-touch" class="block">
+                        <div class="flex items-center justify-center h-[100%] mt-[40px]" id="cta-btn-container">
+                            <button class="button">Reach out!!</button>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="w-[50%]">
-            <img src="../../../../../assets/img/illustrations/undraw_programming_re_kg9v.svg" alt="UnDraw Illustration">
+        <div class="w-[50%] flex items-center justify-center" id="undraw-svg-container">
+            <img class="w-[120%]" id="undraw-svg" src="../../../../../assets/img/illustrations/undraw_programming_re_kg9v.svg" alt="UnDraw Illustration">
         </div>
     </div>
 </div>

@@ -1,5 +1,6 @@
 #front-page {
     height: calc(100vh - 70px);
+    min-width: 400px;
 
     #front-page-text {
 
@@ -99,4 +100,134 @@ display: none;
     height: 300px;
     opacity: 0;
 }
+}
+
+// RESPONSIVE DESIGN
+
+@media screen and (max-width: 1360px) {
+    
+    #typed-text {
+        font-size: 80px;
+    }
+
+    #static-text {
+        font-size: 110px;
+    }
+
+    #undraw-svg {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    
+    #typed-text {
+        font-size: 70px;
+    }
+
+    #static-text {
+        font-size: 90px;
+    }
+
+    #undraw-svg {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    #typed-text {
+        font-size: 90px;
+    }
+
+    #static-text {
+        font-size: 160px;
+    }
+
+    #front-page-content-container {
+        width: 100%;
+    }
+
+    #undraw-svg-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    #typed-text {
+        font-size: 80px;
+    }
+
+    #static-text {
+        font-size: 130px;
+    }
+
+    #front-page-content-container {
+        width: 100%;
+    }
+
+    #undraw-svg-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    #typed-text {
+        font-size: 70px;
+    }
+
+    #static-text {
+        font-size: 100px;
+    }
+
+    #front-page-content-container {
+        width: 100%;
+    }
+
+    #undraw-svg-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    #typed-text {
+        font-size: 50px;
+    }
+
+    #static-text {
+        font-size: 80px;
+    }
+
+    #front-page-content-container {
+        width: 100%;
+    }
+
+    #undraw-svg-container {
+        display: none;
+    }
+
+    #cta-container{
+        #cta-message-container {
+            font-size: 14px;
+
+        }
+        #cta-btn-container {
+            justify-content: start;
+        }
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    #typed-text {
+        font-size: 50px;
+    }
+
+    #static-text {
+        font-size: 70px;
+    }
 }

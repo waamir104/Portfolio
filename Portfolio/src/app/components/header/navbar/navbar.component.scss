@@ -58,8 +58,13 @@
                 text-decoration: underline;
             }
 
-            #get-in-touch-men-btn:hover {
+            #get-in-touch-menu-btn {
+                background: linear-gradient(120deg, rgb(121, 8, 8), rgb(212, 66, 66));
+            }
+
+            #get-in-touch-menu-btn:hover {
                 text-decoration: none;
+                background: linear-gradient(120deg, rgb(121, 8, 8), rgb(212, 66, 66));
             }
         }
     }

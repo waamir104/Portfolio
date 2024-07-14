@@ -15,9 +15,9 @@ export class FrontPageComponent implements AfterViewInit {
   ngAfterViewInit(): void {
       const options = {
         strings: ['front-End', 'back-end', 'web', 'desktop', 'full-stack'],
-        typeSpeed: 90,
+        typeSpeed: 150,
         startDelay: 300,
-        backSpeed: 110,
+        backSpeed: 150,
         shuffle: false,
         smartBackspace: true,
         loop: true,

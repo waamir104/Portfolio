@@ -20,7 +20,7 @@
         id="burger-icon" 
         src="../../../../assets/img/icon/burger-white.png" 
         class="w-[30px] cursor-pointer" alt="Burger Icon"
-        (click)="ToggleMenu($event.target)">
+        (click)="ToggleMenu()">
     </div>
     <div id="menu-container" class="hidden absolute z-[20] top-[80px] right-[15px] w-[200px] rounded-[15px] p-[10px] flex-row items-center justify-center">
         <ul class="links-menu-list flex flex-col h-[100%] items-center" id="nav-links-menu-list">
@@ -28,7 +28,7 @@
             <li class="list-menu-item"><a href="#front-page" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Front Page</a></li>
             <li class="list-menu-item"><a href="#companies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Companies</a></li>
             <li class="list-menu-item mb-[10px]"><a href="#technologies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Technologies</a></li>
-            <li class="list-menu-item w-[100%]"><a id="get-in-touch-men-btn" href="#get-in-touch" class="inline-block p-[8px] rounded-[10px] text-white bg-red-900 shadow-sm shadow-black w-[100%] text-center">Get In Touch</a></li>
+            <li class="list-menu-item w-[100%]"><a id="get-in-touch-menu-btn" (click)="ToggleMenu()" href="#get-in-touch" class="inline-block p-[8px] rounded-[10px] text-white shadow-sm shadow-white w-[100%] text-center">Get In Touch</a></li>
         </ul>
     </div>
 </nav>
