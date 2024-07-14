@@ -21,6 +21,7 @@ export class FrontPageComponent implements AfterViewInit {
         shuffle: false,
         smartBackspace: true,
         loop: true,
+        loopCount: Infinity,
         showCursor: true,
         cursorChar: '|',
         contentType: 'html'
