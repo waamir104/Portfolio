@@ -6,10 +6,10 @@
     </div>
     <div id="links-container" class="containers">
         <ul class="links-list flex flex-row gap-11 h-[100%] items-center" id="nav-links-list">
-            <li class="list-item"><a href="#about-us" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">About us</a></li>
-            <li class="list-item"><a href="#services" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Services</a></li>
-            <li class="list-item"><a href="#companies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Companies</a></li>
-            <li class="list-item"><a href="#technologies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Technologies</a></li>
+            <li class="list-item"><a id="about-link" href="#about-us" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">About us</a></li>
+            <li class="list-item"><a id="services-link" href="#services" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Services</a></li>
+            <li class="list-item"><a id="companies-link" href="#companies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Companies</a></li>
+            <li class="list-item"><a id="projects-link" href="/projects" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-list', $event.target)">Projects</a></li>
         </ul>
     </div>
     <div id="get-in-touch-btn-container" class="containers">
@@ -24,10 +24,10 @@
     </div>
     <div id="menu-container" class="hidden absolute z-[20] top-[80px] right-[15px] w-[200px] rounded-[15px] p-[10px] flex-row items-center justify-center">
         <ul class="links-menu-list flex flex-col h-[100%] items-center" id="nav-links-menu-list">
-            <li class="list-menu-item"><a href="#about-us" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">About us</a></li>
-            <li class="list-menu-item"><a href="#services" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Services</a></li>
-            <li class="list-menu-item"><a href="#companies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Companies</a></li>
-            <li class="list-menu-item mb-[10px]"><a href="#technologies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Technologies</a></li>
+            <li class="list-menu-item"><a id="about-menu-link" href="#about-us" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">About us</a></li>
+            <li class="list-menu-item"><a id="services-menu-link" href="#services" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Services</a></li>
+            <li class="list-menu-item"><a id="companies-menu-link" href="#companies" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Companies</a></li>
+            <li class="list-menu-item mb-[10px]"><a id="projects-menu-link" href="/projects" class="inline-block p-[8px] rounded-[10px] text-white cursor-pointer" (click)="SelectActiveLink('nav-links-menu-list', $event.target)">Projects</a></li>
             <li class="list-menu-item w-[100%]"><a id="get-in-touch-menu-btn" (click)="ToggleMenu()" href="#get-in-touch" class="inline-block p-[8px] rounded-[10px] text-white shadow-sm shadow-white w-[100%] text-center">Get In Touch</a></li>
         </ul>
     </div>

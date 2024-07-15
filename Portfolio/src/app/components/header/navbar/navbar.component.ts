@@ -1,13 +1,31 @@
-import { Component, HostListener, ElementRef } from '@angular/core';
+import { Component, HostListener, ElementRef, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent {
+export class NavbarComponent implements AfterViewInit {
 
   constructor() {}
+
+  ngAfterViewInit(): void {
+    let link: string = '';
+    if (window.location.href.includes('projects')) {
+      link = 'projects';
+    } else if (window.location.href.includes('about')) {
+      link = 'about';
+    } else if (window.location.href.includes('services')) {
+      link = 'services';
+    } else if (window.location.href.includes('companies')) {
+      link = 'companies';
+    }
+
+    const navLink = document.getElementById(`${link}-link`);
+    const navMenuLink = document.getElementById(`${link}-menu-link`);
+    navLink.classList.add('active');
+    navMenuLink.classList.add('active');
+  }
 
   SelectActiveLink(ListId: string, target: EventTarget | null): void {
     if (target instanceof HTMLElement) {
