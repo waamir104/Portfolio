@@ -33,7 +33,8 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/typed.js/dist/typed.module.js"
+              "node_modules/typed.js/dist/typed.module.js",
+              "node_modules/sweetalert2/dist/sweetalert2.all.min.js"
             ]
           },
           "configurations": {

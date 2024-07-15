@@ -27,3 +27,9 @@ html {
 body {
     min-width: 400px;
 }
+
+.is-invalid {
+    background: rgb(245, 183, 183) !important;
+    border: 2px solid rgb(201, 5, 5);
+    color: rgb(201, 5, 5);
+}

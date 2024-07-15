@@ -16,6 +16,8 @@ import { MainContentComponent } from './components/main/home/main-content/main-c
 import { GetInTouchComponent } from './components/main/home/get-in-touch/get-in-touch.component';
 import { AboutUsComponent } from './components/main/home/about-us/about-us.component';
 import { SocialMediaComponent } from './components/main/social-media/social-media.component';
+import { ServicesComponent } from './components/main/home/services/services.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,11 +34,13 @@ import { SocialMediaComponent } from './components/main/social-media/social-medi
     MainContentComponent,
     GetInTouchComponent,
     AboutUsComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
