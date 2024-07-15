@@ -74,11 +74,10 @@
 
 
 // RESPONSIVE DESIGN
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
     #get-in-touch {
         display: flex !important;
         flex-direction: column !important;
-        gap: 30px;
 
         div {
             width: 100%;
@@ -86,7 +85,7 @@
         }
 
         #map-container {
-            height: 400px;
+            height: 300px;
         }
     }
 }

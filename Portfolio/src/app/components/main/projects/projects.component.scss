@@ -1,0 +1,22 @@
+#projects {
+
+    #projects-title{
+        font-family: "Luckiest Guy", sans-serif;
+
+    }
+
+    #projects-content-container {
+
+        #what-i-do-container {
+
+            h2,
+            #what-i-do-text {
+                font-family: "Ubuntu", sans-serif;
+            }
+        }
+
+        #projects-container {
+            border-left: 2px solid var(--light-purple);
+        }
+    }
+}

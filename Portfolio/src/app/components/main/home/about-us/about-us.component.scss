@@ -50,14 +50,17 @@
 
 @media screen and (max-width: 650px) {
     #about-us {
-        flex-direction: column;
-
+        
         div {
-            width: 100%;
-            margin-bottom: 25px;
+            flex-direction: column;
+            gap: 0px;
 
-            p {
-                height: auto;
+            div {
+                width: 100%;
+    
+                p {
+                    height: auto;
+                }
             }
         }
     }
