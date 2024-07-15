@@ -1,0 +1,64 @@
+@media screen and (max-width: 1180px) {
+    #about-us {
+        div {
+            p {
+                height: 160px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #about-us {
+        div {
+            p {
+                height: 180px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #about-us {
+        div {
+            p {
+                height: 210px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #about-us {
+        div {
+            p {
+                height: 230px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #about-us {
+        div {
+            p {
+                height: 280px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #about-us {
+        flex-direction: column;
+
+        div {
+            width: 100%;
+            margin-bottom: 25px;
+
+            p {
+                height: auto;
+            }
+        }
+    }
+}
