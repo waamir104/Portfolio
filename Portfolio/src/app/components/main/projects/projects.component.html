@@ -10,8 +10,20 @@
                 </p>
             </div>
         </div>
-        <div id="projects-container" class="w-[70%] h-auto border-[var(--light-purple)] border-1-[1.5px]">
-
+        <div id="projects-container" class="w-[70%] h-auto border-[var(--light-purple)] border-1-[1.5px] px-[20px]">
+            <div class="project-container" *ngFor="let project of projects">
+                <div class="flex flex-row w-100 px-[10px] justify-between">
+                    <div class="d-container w-[80%]">                
+                        <h3 class="capitalize text-[35px] text-left font-bold text-[var(--light-gray)]">{{ project.title }}</h3>
+                    </div>
+                    <div class="d-container flex justify-end w-[15%]">
+                        <a routerLink="/projects/{{project.id}}" class="inline-block px-[10px] h-[40px] mt-[10px] py-[8px] bg-[var(--light-gray)] rounded-[20px]">See details</a>
+                    </div>
+                </div>
+                <img src="{{ project.imagePath[0] }}" alt="{{ project.title }} Image" class="rounded-[10px] my-[8px] w-[100%]">
+                <p class="text-white p-[15px] text-justify">{{ project.shortDescription }}</p>
+                <hr class="border-[var(--light-purple)] border-[1.5px] border-solid my-[10px]">
+            </div>
         </div>
     </div>
 </div>
