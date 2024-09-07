@@ -1,10 +1,10 @@
-<div class="px-[30px] py-[30px] bg-[var(--dark-gray)]" id="projects">
-    <h1 id="projects-title" class="leading-[120px] uppercase text-[100px] text-[var(--light-gray)] px-[50px]">projects</h1>
+<div class="px-[30px] py-[30px] bg-[var(--light-gray)]" id="projects">
+    <h1 id="projects-title" class="leading-[120px] uppercase text-[100px] text-black px-[50px]">projects</h1>
     <hr class="border-[var(--light-purple)] border-[1.5px] border-solid">
     <div id="projects-content-container" class="flex flex-row w-[100%] mt-[15px]">
         <div id="what-i-do-container" class="w-[30%]">
-            <h2 id="projects-subtitle" class="capitalize text-[35px] text-center font-bold text-[var(--light-gray)]">what i do</h2>
-            <div class="w-[100%] py-[20px] px-[40px] text-white">
+            <h2 id="projects-subtitle" class="capitalize text-[35px] text-center font-bold text-black">what i do</h2>
+            <div class="w-[100%] py-[20px] px-[40px] text-black">
                 <p id="what-i-do-text" class="text-justify">
                     As a full stack developer encompasses designing, developing, testing, and deploying web applications, leveraging a broad range of technologies to deliver effective solutions that meet client needs and business objectives.
                 </p>
@@ -13,15 +13,15 @@
         <div id="projects-container" class="w-[70%] h-auto border-[var(--light-purple)] border-1-[1.5px] px-[20px]">
             <div class="project-container" *ngFor="let project of projects">
                 <div class="flex flex-row w-100 px-[10px] justify-between">
-                    <div class="d-container w-[80%]">                
-                        <h3 class="capitalize text-[35px] text-left font-bold text-[var(--light-gray)]">{{ project.title }}</h3>
+                    <div class="d-container w-[80%]">
+                        <h3 class="capitalize text-[35px] text-left font-bold text-black">{{ project.title }}</h3>
                     </div>
                     <div class="d-container flex justify-end w-[15%]">
-                        <a routerLink="/projects/{{project.id}}" class="inline-block px-[10px] h-[40px] mt-[10px] py-[8px] bg-[var(--light-gray)] rounded-[20px]">See details</a>
+                        <a routerLink="/projects/{{project.id}}" class="sd-btn inline-block px-[10px] h-[40px] mt-[10px] py-[8px] text-white rounded-[20px]">See details</a>
                     </div>
                 </div>
                 <img src="{{ project.imagePath[0] }}" alt="{{ project.title }} Image" class="rounded-[10px] my-[8px] w-[100%]">
-                <p class="text-white p-[15px] text-justify">{{ project.shortDescription }}</p>
+                <p class="text-black p-[15px] text-justify">{{ project.shortDescription }}</p>
                 <hr class="border-[var(--light-purple)] border-[1.5px] border-solid my-[10px]">
             </div>
         </div>

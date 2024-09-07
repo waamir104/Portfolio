@@ -17,6 +17,14 @@
 
         #projects-container {
             border-left: 2px solid var(--light-purple);
+
+            .sd-btn {
+              background: linear-gradient(90deg, var(--dark-purple) 0%, rgb(180, 90, 240) 100%);
+            }
+
+            .sd-btn:hover {
+              transform: scale(1.1);
+            }
         }
     }
 }
