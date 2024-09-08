@@ -22,7 +22,7 @@ export class ProjectsComponent {
     },
     {
       id: 2,
-      title: "Encrypter - Challenge Oracle ONE",
+      title: "Encrypter",
       description: "Secure your data with our advanced text encryption tool, designed to protect your sensitive information effortlessly. Simply input your text, choose from various encryption methods, and generate a secure, encrypted version with ease. Ideal for safeguarding personal or business data, ensuring confidentiality and integrity. Our tool is straightforward and requires no registration or login—just enter your text, select your encryption method, and encrypt. Enhance your digital security with our reliable, easy-to-use encryption service. Start protecting your data now!",
       shortDescription: "Encrypt your text securely with our easy-to-use encryption tool. Simply enter your text, select your encryption method, and generate a secure, encrypted version. Ideal for protecting sensitive information and ensuring privacy. No sign-up required—start encrypting now and keep your data safe!",
       imagePath: [

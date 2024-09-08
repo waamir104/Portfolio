@@ -12,11 +12,11 @@
         </div>
         <div id="projects-container" class="w-[70%] h-auto border-[var(--light-purple)] border-1-[1.5px] px-[20px]">
             <div class="project-container" *ngFor="let project of projects">
-                <div class="flex flex-row w-100 px-[10px] justify-between">
-                    <div class="d-container w-[80%]">
-                        <h3 class="capitalize text-[35px] text-left font-bold text-black">{{ project.title }}</h3>
+                <div id="project-header" class="flex flex-row w-100 px-[10px] justify-between items-center">
+                    <div id="project-title-container" class="d-container w-fit">
+                        <h3 id="project-title" class="capitalize text-[35px] text-left font-bold text-black">{{ project.title }}</h3>
                     </div>
-                    <div class="d-container flex justify-end w-[15%]">
+                    <div id="cto-project-btn-container" class="d-container flex justify-end w-fit">
                         <a routerLink="/projects/{{project.id}}" class="sd-btn inline-block px-[10px] h-[40px] mt-[10px] py-[8px] text-white rounded-[20px]">See details</a>
                     </div>
                 </div>
